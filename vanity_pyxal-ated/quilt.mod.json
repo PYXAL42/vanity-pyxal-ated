@@ -1,0 +1,20 @@
+{
+    "schema_version": 1,
+    "quilt_loader": {
+        "id": "vanity_pyxal-ated",
+        "group": "packed.vanity_pyxal-ated.mod",
+        "version": "1.0.0",
+        "metadata": {
+            "name": "Vanity: Pyxal-ated",
+            "description": "§e·|· §7Vanity Pyxal-ated - Version §e1.0",
+            "contributors": {
+                "Pyxal": "Author"
+            },
+            "license": "All Rights Reserved",
+            "icon": "pack.png"
+        }
+    },
+    "minecraft": {
+        "environment": "*"
+    }
+}

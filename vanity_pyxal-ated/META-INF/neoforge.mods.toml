@@ -1,0 +1,10 @@
+modLoader="lowcodefml"
+loaderVersion="[1,)"
+license="All Rights Reserved"
+[[mods]]
+modId="vanity_pyxal-ated"
+version="1.0.0"
+displayName="Vanity: Pyxal-ated"
+description="§e·|· §7Vanity Pyxal-ated - Version §e1.2"
+logoFile="pack.png"
+authors="Pyxal"

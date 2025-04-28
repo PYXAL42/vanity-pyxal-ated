@@ -1,0 +1,6 @@
+{
+    "parent": "minecraft:item/generated",
+    "textures": {
+        "layer0": "vanity_pyxal-ated:item/pyxal-ation_design"
+    }
+}

@@ -1,0 +1,6 @@
+{
+    "parent": "vanity:item/large_handheld_item",
+    "textures": {
+        "layer0": "vanity_pyxal-ated:item/quartz_trimmed_netherite_greataxe"
+    }
+}

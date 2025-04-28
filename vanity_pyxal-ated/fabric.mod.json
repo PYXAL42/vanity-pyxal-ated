@@ -1,0 +1,13 @@
+{
+    "schemaVersion": 1,
+    "id": "vanity_pyxal-ated",
+    "version": "1.0.0",
+    "environment": "*",
+    "name": "Vanity: Pyxal-ated",
+    "description": "§e·|· §7Vanity Pyxal-ated - Version §e1.0",
+    "authors": [
+        "Pyxal"
+    ],
+    "license": "All Rights Reserved",
+    "icon": "pack.png"
+}
