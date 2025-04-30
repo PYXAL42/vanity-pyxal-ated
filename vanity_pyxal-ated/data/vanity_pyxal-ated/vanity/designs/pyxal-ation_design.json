@@ -2,28 +2,51 @@
     "model": "vanity_pyxal-ated:pyxal-ation_design",
     "type": "sellable",
     "styles": {
-        "amethyst_blade":
-        [
+        "amethyst_blade": [
             {
-                "item": ["minecraft:netherite_sword", "simplyswords:netherite_katana"],
+                "item": "minecraft:netherite_sword",
                 "assets": {
                     "default": "vanity_pyxal-ated:amethyst_blade",
                     "hand": "vanity_pyxal-ated:amethyst_blade"
                 }
             }
         ],
-        "arcanite_katana":
-        [
+        "amethyst_blade_modded_compat": [
             {
-                "item": ["minecraft:netherite_sword", "smiplyswords:netherite_katana", "simplyswords:runic_katana"],
+                "condition": {
+                    "type": "mod_loaded",
+                    "modid": "simplyswords"
+                },
+                "item":"simplyswords:netherite_katana",
+                "assets": {
+                    "default": "vanity_pyxal-ated:amethyst_blade",
+                    "hand": "vanity_pyxal-ated:amethyst_blade"
+                }
+            }
+        ],
+        "arcanite_katana": [
+            {
+                "item": "minecraft:netherite_sword",
                 "assets": {
                     "default": "vanity_pyxal-ated:acanite_katana",
                     "hand": "vanity_pyxal-ated:acanite_longsword_katana_handheld"
                 }
             }
         ],
-        "copper_twinblade":
-        [
+        "arcanite_katana_modded_compat": [
+            {
+                "condition": {
+                    "type": "mod_loaded",
+                    "modid": "simplyswords"
+                },
+                "item": ["smiplyswords:netherite_katana", "simplyswords:runic_katana"],
+                "assets": {
+                    "default": "vanity_pyxal-ated:acanite_katana",
+                    "hand": "vanity_pyxal-ated:acanite_longsword_katana_handheld"
+                }
+            }
+        ],
+        "copper_twinblade": [
             {
                 "item": ["minecraft:netherite_sword", "simplyswords:netherite_twinblade", "simplyswords:runic_twinblade"],
                 "assets": {
@@ -32,8 +55,20 @@
                 }
             }
         ],
-        "emerald_trimmed_netherite_glaive":
-        [
+        "copper_twinblade_modded_compat": [
+            {
+                "condition": {
+                    "type": "mod_loaded",
+                    "modid": "simplyswords"
+                },
+                "item": ["minecraft:netherite_sword", "simplyswords:netherite_twinblade", "simplyswords:runic_twinblade"],
+                "assets": {
+                    "default": "vanity_pyxal-ated:copper_twinblade",
+                    "hand": "vanity_pyxal-ated:copper_twinblade"
+                }
+            }
+        ],
+        "emerald_trimmed_netherite_glaive": [
             {
                 "item": ["minecraft:netherite_sword", "simplyswords:netherite_glaive", "simplyswords:runic_glaive"],
                 "assets": {
@@ -42,8 +77,20 @@
                 }
             }
         ],
-        "holy_blahaj":
-        [
+        "emerald_trimmed_netherite_glaive_modded_compat": [
+            {
+                "condition": {
+                    "type": "mod_loaded",
+                    "modid": "simplyswords"
+                },
+                "item": ["minecraft:netherite_sword", "simplyswords:netherite_glaive", "simplyswords:runic_glaive"],
+                "assets": {
+                    "default": "vanity_pyxal-ated:emerald_trimmed_netherite_glaive",
+                    "hand": "vanity_pyxal-ated:emerald_trimmed_netherite_glaive"
+                }
+            }
+        ],
+        "holy_blahaj": [
             {
                 "item": ["minecraft:totem_of_undying", "defile:totem_of_uncleansing"],
                 "assets": {
@@ -52,18 +99,42 @@
                 }
             }
         ],
-        "kols_rapier":
-        [
+        "holy_blahaj_modded_compat": [
             {
-                "item": ["minecraft:gold_sword", "simplyswords:gold_rapier", "simplyswords:netherite_rapier", "simplyswords:runic_rapier", "minecraft:netherite_sword"],
+                "condition": {
+                    "type": "mod_loaded",
+                    "modid": "simplyswords"
+                },
+                "item": ["minecraft:totem_of_undying", "defile:totem_of_uncleansing"],
+                "assets": {
+                    "default": "vanity_pyxal-ated:holy_blahaj",
+                    "hand": "vanity_pyxal-ated:holy_blahaj"
+                }
+            }
+        ],
+        "kols_rapier": [
+            {
+                "item": ["minecraft:gold_sword", "minecraft:netherite_sword"],
                 "assets": {
                     "default": "vanity_pyxal-ated:kols_rapier",
                     "hand": "vanity_pyxal-ated:kols_rapier_handheld"
                 }
             }
         ],
-        "lear":
-        [
+        "kols_rapier_modded_compat": [
+            {
+                "condition": {
+                    "type": "mod_loaded",
+                    "modid": "simplyswords"
+                },
+                "item": ["simplyswords:gold_rapier", "simplyswords:netherite_rapier", "simplyswords:runic_rapier"],
+                "assets": {
+                    "default": "vanity_pyxal-ated:kols_rapier",
+                    "hand": "vanity_pyxal-ated:kols_rapier_handheld"
+                }
+            }
+        ],
+        "lear": [
             {
                 "tag": "minecraft:swords",
                 "assets": {
@@ -72,8 +143,7 @@
                 }
             }
         ],
-        "monster_can":
-        [
+        "monster_can": [
             {
                 "item": ["minecraft:golden_apple","minecraft:enchanted_golden_apple", "minecraft:golden_carrot"],
                 "assets": {
@@ -82,8 +152,7 @@
                 }
             }
         ],
-        "trolling_template":
-        [
+        "trolling_template": [
             {
                 "item": "vanity:design",
                 "assets": {
@@ -92,48 +161,95 @@
                 }
             }
         ],
-        "quartz_trimmed_netherite_greataxe":
-        [
+        "quartz_trimmed_netherite_greataxe": [
             {
-                "item": ["minecraft:netherite_axe", "simplyswords:netherite_greataxe", "simplyswords:runic_greataxe"],
+                "item": "minecraft:netherite_axe",
                 "assets": {
                     "default": "vanity_pyxal-ated:quartz_trimmed_netherite_greataxe",
                     "hand": "vanity_pyxal-ated:quartz_trimmed_netherite_greataxe"
                 }
             }
         ],
-        "sapphire_tear":
-        [
+        "quartz_trimmed_netherite_greataxe_modded_compat": [
             {
-                "item": ["minecraft:netherite_sword", "simplyswords:netherite_rapier", "simplyswords:netherite_longsword", "simplyswords:runic_longsword", "simplyswords:runic_rapier"],
+                "condition": {
+                    "type": "mod_loaded",
+                    "modid": "simplyswords"
+                },
+                "item": ["simplyswords:netherite_greataxe", "simplyswords:runic_greataxe"],
+                "assets": {
+                    "default": "vanity_pyxal-ated:quartz_trimmed_netherite_greataxe",
+                    "hand": "vanity_pyxal-ated:quartz_trimmed_netherite_greataxe"
+                }
+            }
+        ],
+        "sapphire_tear": [
+            {
+                "item": "minecraft:netherite_sword",
                 "assets": {
                     "default": "vanity_pyxal-ated:sapphire_tear",
                     "hand": "vanity_pyxal-ated:sapphire_tear"
                 }
             }
         ],
-        "sapphire_tear[iron]":
-        [
+        "sapphire_tear_modded_compat": [
             {
-                "item": ["minecraft:iron_sword", "simplyswords:iron_rapier", "simplyswords:iron_longsword"],
+                "condition": {
+                    "type": "mod_loaded",
+                    "modid": "simplyswords"
+                },
+                "item": ["simplyswords:netherite_rapier", "simplyswords:netherite_longsword", "simplyswords:runic_longsword", "simplyswords:runic_rapier"],
+                "assets": {
+                    "default": "vanity_pyxal-ated:sapphire_tear",
+                    "hand": "vanity_pyxal-ated:sapphire_tear"
+                }
+            }
+        ],
+        "sapphire_tear[iron]": [
+            {
+                "item": "minecraft:iron_sword",
                 "assets": {
                     "default": "vanity_pyxal-ated:sapphire_tear[iron]",
                     "hand": "vanity_pyxal-ated:sapphire_tear[iron]"
                 }
             }
         ],
-        "sapphire_tear[gold]":
-        [
+        "sapphire_tear[iron]_modded_compat": [
             {
-                "item": ["minecraft:golden_sword", "simplyswords:gold_rapier", "simplyswords:gold_longsword"],
+                "condition": {
+                    "type": "mod_loaded",
+                    "modid": "simplyswords"
+                },
+                "item": ["simplyswords:iron_rapier", "simplyswords:iron_longsword"],
+                "assets": {
+                    "default": "vanity_pyxal-ated:sapphire_tear[iron]",
+                    "hand": "vanity_pyxal-ated:sapphire_tear[iron]"
+                }
+            }
+        ],
+        "sapphire_tear[gold]": [
+            {
+                "item": "minecraft:golden_sword",
                 "assets": {
                     "default": "vanity_pyxal-ated:sapphire_tear[gold]",
                     "hand": "vanity_pyxal-ated:sapphire_tear[gold]"
                 }
             }
         ],
-        "techno_machet":
-        [
+        "sapphire_tear[gold]_modded_compat": [
+            {
+                "condition": {
+                    "type": "mod_loaded",
+                    "modid": "simplyswords"
+                },
+                "item": ["simplyswords:gold_rapier", "simplyswords:gold_longsword"],
+                "assets": {
+                    "default": "vanity_pyxal-ated:sapphire_tear[gold]",
+                    "hand": "vanity_pyxal-ated:sapphire_tear[gold]"
+                }
+            }
+        ],
+        "techno_machet": [
             {
                 "tag": "minecraft:axes",
                 "assets": {
