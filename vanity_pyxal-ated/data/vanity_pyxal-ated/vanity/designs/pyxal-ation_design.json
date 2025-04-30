@@ -92,7 +92,7 @@
         ],
         "holy_blahaj": [
             {
-                "item": ["minecraft:totem_of_undying", "defile:totem_of_uncleansing"],
+                "item": "minecraft:totem_of_undying",
                 "assets": {
                     "default": "vanity_pyxal-ated:holy_blahaj",
                     "hand": "vanity_pyxal-ated:holy_blahaj"
@@ -103,9 +103,9 @@
             {
                 "condition": {
                     "type": "mod_loaded",
-                    "modid": "simplyswords"
+                    "modid": "defile"
                 },
-                "item": ["minecraft:totem_of_undying", "defile:totem_of_uncleansing"],
+                "item": "defile:totem_of_uncleansing",
                 "assets": {
                     "default": "vanity_pyxal-ated:holy_blahaj",
                     "hand": "vanity_pyxal-ated:holy_blahaj"
