@@ -5,7 +5,7 @@
         "amethyst_blade":
         [
             {
-                "item: ["minecraft:netherite_sword", "simplyswords:netherite_katana"],
+                "item": ["minecraft:netherite_sword", "simplyswords:netherite_katana"],
                 "assets": {
                     "default": "vanity_pyxal-ated:amethyst_blade",
                     "hand": "vanity_pyxal-ated:amethyst_blade"
@@ -82,7 +82,8 @@
                 }
             }
         ],
-        "trolling_template": [
+        "trolling_template":
+        [
             {
                 "item": "vanity:design",
                 "assets": {
